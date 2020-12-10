@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 970px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+#header{
+    width: 970px;
+    min-height: 66px;
+    /* outline: 2px solid yellow; */
+    background-color: rgb(243, 243, 243);
+    outline-offset: -2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 28pt;
+    padding: 10px 0 0 20px;
+}
+#header p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 40px 0 0;
+    font-weight: bold;
+    font-size: 15pt;
+}
+#main{
+    width: 970px;
+    min-height: 800px;
+    padding: 25px;
+    /* outline: 2px solid magenta; */
+    outline-offset: -2px;
+    background-image: radial-gradient(circle, rgb(145, 117, 131) 15%,  rgb(26, 10, 14) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer{
+    width: 970px;
+    min-height: 72px;
+    /* outline: 2px solid cyan; */
+    outline-offset: -2px;
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#footer p{
+    margin: 10px 0 15px 0;
+}
+#footer img{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+.headshot{
+    outline: 4px solid rgb(192, 192, 192);
+    outline-offset: -4px;
+    width: 411px;
+    height: 275;
+}
+.bio{
+    width: 480px;
+    height: 270px;
+}
+.topics{
+    background-image: linear-gradient(to right, rgb(255,255,255), rgb(218,203,217));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.bio p{
+    padding: 10px 10px 10px 10px;
+}
+.bio a{
+    padding: 0 10px 10px 10px;
+}
+.topics h3, h4{
+    padding: 10px 0 0 10px;
+}
+.projects{
+    width: 290px;
+    margin-top: 20px;
+}
+.projects p{
+    width: 290px;
+    height: 155px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    font-size: 10pt;
+}
+.text-gradient{
+    color: white;
+    height: 40px;
+    background-image: linear-gradient(rgb(180, 180, 183), rgb(135,134,147), rgb(180, 180, 183));
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0 15px 18px;
+    height: 80px;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+form{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+input[type=submit]{
+    background-color: rgb(64, 125, 97);
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 4px 5px 0px rgb(142, 142, 142);
+    font-weight: bold;
+}
